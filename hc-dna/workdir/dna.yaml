@@ -1,0 +1,12 @@
+---
+manifest_version: 1
+name: "entanglement-proof-store"
+uuid: 00000000-0000-0000-0000-000000000000
+properties: {
+  "enforce_spam_limit": 20,
+  "max_chunk_interval": 100000,
+  "active_agent_duration_ms": 7200
+}
+zomes: 
+  - name: entanglement_proof_store
+    bundled: ../target/wasm32-unknown-unknown/release/entanglement_proof_store.wasm

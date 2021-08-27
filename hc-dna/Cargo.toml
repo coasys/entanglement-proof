@@ -1,0 +1,10 @@
+[workspace]
+members = [
+  "zomes/entanglement_proof_store",
+]
+
+[profile.dev]
+opt-level = "z"
+
+[profile.release]
+opt-level = "z"
